@@ -1,0 +1,16 @@
+.home-Screen{
+    display: flex;
+    flex-direction: column;
+}
+
+.header-home{
+   height: 30px;
+}
+
+.dashboard-text{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    padding-left: 20px;
+    color: #3E2929;
+}

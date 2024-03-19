@@ -1,0 +1,119 @@
+.signup-container-student {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .signup-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .signup-inner-container {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .input-field {
+    margin-top: 10px;
+    width: 380px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  .password-input-container {
+    position: relative;
+  }
+  .eye-button {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-30%);
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 10px;
+    outline: none;
+  }
+  .input-field:focus{
+    border-color: black;
+  }
+  
+  .signup-student-deparment {
+    margin-bottom: 15px;
+  }
+  
+  .signup-department-label {
+    font-weight: bold;
+  }
+  
+  .signup-department-options {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .signup-department-inner {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .signup-department-inner input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  
+  .signup-student-year {
+    margin-bottom: 15px;
+  }
+  
+  .signup-year-label {
+    font-weight: bold;
+  }
+  
+  .signup-year-options {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .signup-year-inner {
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .signup-year-inner input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  
+  .signup-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .signup-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  

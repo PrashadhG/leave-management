@@ -1,0 +1,93 @@
+.signup-container-faculty {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .signup-header-faculty {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .signup-inner-container-faculty {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .input-field-faculty {
+    margin-top: 10px;
+    width: 380px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .input-field-faculty:focus {
+    border-color: black;
+  }
+  
+  .password-input-container-faculty {
+    position: relative;
+  }
+  
+  .eye-button {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-35%);
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .signup-faculty-department {
+    margin-bottom: 15px;
+  }
+  
+  .signup-faculty-department-label {
+    font-weight: bold;
+  }
+  
+  .signup-faculty-department-options {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .signup-faculty-department-inner {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .signup-faculty-department-inner input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  .signup-button-faculty {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .signup-button-faculty:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  

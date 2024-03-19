@@ -1,0 +1,183 @@
+.landing-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-landing {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    color: #3E2929;
+    border-bottom: solid 1px #3E2929;
+    height: 80px;
+}
+
+.leave-text {
+    justify-content: center;
+    padding-left: 20px;
+    font-family: "Inter", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.login-button {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 15px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.content {
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+    margin-left: 40px;
+    margin-right: auto;
+    height: 562px;
+}
+
+
+.quote-text {
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.para {
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    text-align: justify;
+}
+
+.register,
+.log,
+.getStarted {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.register {
+    background-color: white;
+    color: #3E2929;
+    border: solid 2px #3E2929;
+}
+
+.register:hover {
+    background-color: #3E2929;
+    color: white;
+}
+
+.log {
+    background-color: #A4AE2B;
+    color: white;
+}
+
+.log:hover {
+    background-color: #FFD500;
+}
+
+.getStarted {
+    background-color: #1572DE;
+    color: white;
+    border: solid 1px #0D47A5;
+}
+
+.getStarted:hover {
+    background-color: #0D47A5;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+.footer {
+    border-top: solid 1px #3E2929;
+    background-color: #3E2929;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .login-button {
+        display: none;
+    }
+
+    .header-landing {
+        justify-content: center;
+    }
+
+    .leave-text {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .register,
+    .log {
+        width: 100%;
+    }
+
+    .register,
+    .log,
+    .getStarted {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .content {
+        padding: 10px;
+    }
+
+    .quote-text {
+        font-size: 30px;
+    }
+
+    .para {
+        font-size: 18px;
+    }
+
+    .register,
+    .log,
+    .getStarted {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
+
+.text-and-image-container {
+    display: flex;
+    flex-direction: row;
+    width: 1400px;
+    gap: 200px;
+}
+
+.text-container {
+    width: 600px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    bottom: 20px;
+}
+
+.image-container img {
+    width: 550px;
+    height: 500px;
+}
